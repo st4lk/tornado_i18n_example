@@ -5,9 +5,6 @@ from babel.numbers import format_currency
 
 class HomeHandler(tornado.web.RequestHandler):
 
-    def get_user_locale(self):
-        return tornado.locale.get("ru")
-
     def get(self):
         _ = self.locale.translate
         count = int(self.get_argument('count', 1))

@@ -1,2 +1,3 @@
 tornado==4.0.2
-Babel==1.3
+https://github.com/st4lk/babel/archive/2.1.2-draft.tar.gz
+https://github.com/st4lk/tornado-babel/archive/0.3b.tar.gz

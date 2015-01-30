@@ -1,23 +1,23 @@
-# Russian translations for tornado_i package.
-# Copyright (C) 2015 THE tornado_i'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the tornado_i package.
-# stalk <alexevseev@gmail.com>, 2015.
+# Russian translations for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <alexevseev@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tornado_i 18n\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-30 17:17+0300\n"
-"PO-Revision-Date: 2015-01-30 12:27+0300\n"
-"Last-Translator: stalk <alexevseev@gmail.com>\n"
-"Language-Team: Russian\n"
-"Language: ru\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: alexevseev@gmail.com\n"
+"POT-Creation-Date: 2015-01-30 19:50+0300\n"
+"PO-Revision-Date: 2015-01-30 19:50+0300\n"
+"Last-Translator: FULL NAME <alexevseev@gmail.com>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.1.2-draft\n"
 
-#: app.py:9
+#: app.py:15
 msgid "Hello, world!"
 msgstr "Привет, мир!"
 
@@ -26,13 +26,12 @@ msgid "Home page"
 msgstr "Домашняя страница"
 
 #: home.html:6
-#, python-brace-format
 msgid "{count} event is gonna happen"
 msgid_plural "{count} event are gonna happen"
 msgstr[0] "{count} событие должно случиться"
 msgstr[1] "{count} события должно случиться"
 msgstr[2] "{count} событий должно случиться"
 
-#: home.html:7
+#: home.html:8
 msgid "Good buy!"
 msgstr "До свидания!"
